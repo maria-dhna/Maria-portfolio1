@@ -1,0 +1,36 @@
+.about-section {
+  background-color: #151515;
+}
+
+.about-card {
+  padding: 25px 30px;
+  border: 1px solid #333333;
+  border-radius: 12px;
+  background-color: #191919;
+}
+
+.about-item {
+  display: flex;
+  gap: 20px;
+  padding: 22px 0;
+  border-bottom: 1px solid #333333;
+}
+
+.about-item:last-child {
+  border-bottom: none;
+}
+
+.about-item > i {
+  color: #b9f36a;
+  font-size: 27px;
+}
+
+.about-item h5 {
+  font-weight: 700;
+}
+
+.about-item p {
+  margin-bottom: 0;
+  color: #aaaaaa;
+  line-height: 1.7;
+}

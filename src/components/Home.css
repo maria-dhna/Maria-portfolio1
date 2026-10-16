@@ -1,0 +1,91 @@
+.home-section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding-top: 120px;
+}
+
+.home-title {
+  font-size: clamp(45px, 6vw, 72px);
+  font-weight: 800;
+  letter-spacing: -2px;
+}
+
+.home-role {
+  color: #dddddd;
+  font-size: clamp(22px, 3vw, 32px);
+  font-weight: 500;
+}
+
+.home-description {
+  max-width: 570px;
+}
+
+.home-socials a {
+  color: #aaaaaa;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.home-socials a:hover {
+  color: #b9f36a;
+}
+
+.home-image-wrapper {
+  position: relative;
+  max-width: 370px;
+  margin: auto;
+  padding: 15px;
+}
+
+.home-image-frame {
+  padding: 10px;
+  border: 1px solid #b9f36a;
+  border-radius: 18px;
+  background-color: #1b1b1b;
+  transform: rotate(2deg);
+  transition: 0.3s;
+}
+
+.home-image-frame:hover {
+  transform: rotate(0deg);
+}
+
+.home-profile-image {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  border-radius: 12px;
+  background-color: #222222;
+}
+
+.home-image-label {
+  position: absolute;
+  left: 0;
+  bottom: 35px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 18px;
+  border: 1px solid #333333;
+  border-radius: 8px;
+  background-color: #191919;
+  color: #ffffff;
+  box-shadow: 0 8px 25px #00000055;
+}
+
+.home-image-label i {
+  color: #b9f36a;
+  font-size: 22px;
+}
+
+@media (max-width: 991px) {
+  .home-section {
+    min-height: auto;
+  }
+
+  .home-image-wrapper {
+    max-width: 300px;
+  }
+}

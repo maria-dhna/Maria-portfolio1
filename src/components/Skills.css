@@ -1,0 +1,21 @@
+.skill-card {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  height: 100%;
+  padding: 22px 18px;
+  border: 1px solid #333333;
+  border-radius: 8px;
+  background-color: #191919;
+  transition: 0.3s;
+}
+
+.skill-card i {
+  color: #b9f36a;
+  font-size: 20px;
+}
+
+.skill-card:hover {
+  border-color: #b9f36a;
+  transform: translateY(-4px);
+}

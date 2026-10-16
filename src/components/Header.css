@@ -1,0 +1,41 @@
+.portfolio-navbar {
+  background-color: rgba(17, 17, 17, 0.96);
+  border-bottom: 1px solid #292929;
+  padding: 17px 0;
+}
+
+.portfolio-navbar .navbar-brand {
+  font-size: 25px;
+  letter-spacing: -1px;
+}
+
+.portfolio-navbar .navbar-brand span {
+  color: #b9f36a;
+}
+
+.portfolio-navbar .nav-link {
+  color: #cccccc;
+  transition: 0.3s;
+}
+
+.portfolio-navbar .nav-link:hover {
+  color: #b9f36a;
+}
+
+.portfolio-navbar .contact-nav-link {
+  border: 1px solid #b9f36a;
+  border-radius: 5px;
+  padding: 8px 15px;
+}
+
+@media (max-width: 991px) {
+  .portfolio-navbar .navbar-nav {
+    align-items: stretch !important;
+    padding-top: 15px;
+  }
+
+  .portfolio-navbar .contact-nav-link {
+    display: inline-block;
+    width: fit-content;
+  }
+}
